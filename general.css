@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0
+}
+
+*:focus {
+    outline: transparent
+}
+
+body,
+html {
+    width: 100%
+}
+
+a,
+button,
+input[type=submit] {
+    cursor: pointer
+}
+
+input[type=text],
+button {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+a, a:visited {
+    color: inherit
+}
+
+.row,
+.col {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.bottom {
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline
+}
+
+.start {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.init {
+    width: initial;
+    max-width: initial
+}
+
+.bet {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.rel {
+    position: relative
+}
+
+.abs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
